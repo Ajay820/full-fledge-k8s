@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ajay4uu/frontendv6
+        image: ajay4uu/frontend2
         ports:
         - containerPort: 80
-        imagePullPolicy: Never
